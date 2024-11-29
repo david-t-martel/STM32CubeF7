@@ -1,0 +1,6 @@
+speed 4000
+si SWD
+loadbin Flash.bin, 0x08000000
+r
+g
+q
